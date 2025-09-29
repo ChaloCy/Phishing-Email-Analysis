@@ -1,66 +1,10 @@
-
----
-
 ## 📖 Case Background  
-An employee (John, Finance) reported a **suspicious email** that appeared to come from the CEO, requesting him to urgently review a financial document.  
+I was tasked to investigate a phishing email reported by a finance employee in a corporate environment. The email appeared to come from the CEO, urgently requesting the review of a financial document.
 The email contained a suspicious link:  
 
 <img width="561" height="205" alt="image" src="https://github.com/user-attachments/assets/64895b3d-1e0b-4f5e-ab1f-0048583fa0a4" />
 
-This raised suspicion of a **phishing attempt** and triggered a security investigation.  
-
----
-
-## Report Summary
-This report provides an in-depth analysis and response to a phishing attempt
-reported by John from our finance department. John received a suspicious email
-claiming to be from our CEO, urging him to click a link to review an urgent financial
-document. Our investigation revealed that the link led to a suspicious IP address,
-suggesting a phishing attack.
-
----
-
-## Summary of Solutions and Tools Used
-Email Analysis: I identified key indicators of phishing within the email body, such as
-the sense of urgency, unusual URL format ("hxxp" instead of "http"), and lack of a
-standard email signature. These clues indicated the email was a phishing email.
-
-Metadata and IP Analysis: I checked the IP address 23.94.182.50 using WHOIS and
-VirusTotal. The IP was linked to known malicious activities, confirming the email was
-a phishing attempt.
-
-Link Analysis: The URL in the email was investigated using VirusTotal. The tool's
-analysis revealed a long history of malicious activity associated with the domain,
-further confirming the phishing attempt.
-
-Containment and Remediation: Immediate steps were taken to isolate and preserve
-evidence, including:
-- Isolated affected devices to stop further interaction.
-- Secured digital evidence from these devices.
-- Monitored the network for unusual activity using tools like Wireshark.
-- Disconnected compromised systems from the network.
-
-Forensic Investigation: If John had clicked the link, I would have taken the following
-steps:
-- Reviewed logs for unusual activities.
-- Checked for vulnerabilities using Nmap and Nikto.
-- Enhanced security by closing unnecessary ports and updating software.
-
-### Tools Used
-- WHOIS Lookup: Provided details about the IP address.  
-- VirusTotal: Identified threats related to the IP address and URL.  
-- Wireshark: Monitored network traffic.  
-- Nmap: Scanned for network vulnerabilities.  
-- Nikto: Checked web servers for vulnerabilities.  
-
-These tools helped confirm the phishing attempt and guide our response.  
-The incident response effectively neutralized the immediate threat, preserved
-evidence, and maintained the integrity of our IT systems. By isolating devices,
-securing evidence, and monitoring the network, we mitigated potential damage.  
-Additionally, a forensic investigation and strengthened security measures helped
-prevent future incidents and protect sensitive information.
-
----
+Given the sensitive nature of the request, it immediately raised suspicion. 
 
 ## Email Analysis
 [📸 Screenshot placeholder: `./images/email-body.png`]
