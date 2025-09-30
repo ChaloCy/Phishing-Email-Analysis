@@ -10,7 +10,7 @@ The project involved a systematic analysis of the email content, embedded links,
 
 ---
 
-## 📝 Report Summary
+## Report Summary
 The project involved an in-depth analysis and response to the phishing attempt reported by an employee. The email claimed to be from the CEO and urged him to click a link to review an urgent financial document. Investigation revealed that the link directed to a suspicious IP address, confirming the phishing nature of the email.
 
 # Analysis & Forensic Investigation
