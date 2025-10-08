@@ -11,9 +11,9 @@ The project involved a systematic analysis of the email content, embedded links,
 ---
 
 ## Report Summary
-The project involved an in-depth analysis and response to the phishing attempt reported by an employee. The email claimed to be from the CEO and urged him to click a link to review an urgent financial document. Investigation revealed that the link directed to a suspicious IP address, confirming the phishing nature of the email.
+The investigation confirmed that the reported message was a phishing attempt impersonating the CEO. The email urged the recipient to review a financial document by clicking a link, which was found to redirect to a suspicious IP address. This behavior, along with the language and formatting of the message, confirmed that the email was malicious.
 
-# Analysis & Forensic Investigation
+# Analysis and Forensic Investigation
 
 ### Email Analysis
 - Identified phishing indicators such as urgency cues, unusual URL format, and lack of a standard email signature.
@@ -46,20 +46,18 @@ Immediate steps were taken to neutralize the threat:
 | **WHOIS Lookup** | Provided domain/IP registration details. |
 | **VirusTotal** | Identified threats associated with the IP address and URL.  |
 | **Wireshark** | Monitored network traffic for anomalies. |
-| **Nmap** | Scanned the system and network for vulnerabilities. |
-| **Nikto** | Assessed web servers for potential weaknesses. |
+| **Nmap** | Scanned the network for open ports and vulnerabilities. |
+| **Nikto** | Tested web servers for potential weaknesses. |
 
 ---
 
 ## Outcome
-- Confirmed phishing attack targeting a finance employee.  
-- Identified malicious IP and associated infrastructure.  
-- Implemented containment measures and preserved evidence.  
-- Mitigated potential damage while maintaining IT system integrity.  
-- Recommended security enhancements to prevent future attacks.
+The investigation confirmed that the email was part of a phishing attack targeting a finance employee. The analysis identified a malicious IP and associated domain infrastructure, and the threat was contained before any compromise occurred. Evidence was preserved in accordance with forensic best practices, and the incident response plan was refined based on the lessons learned.
+
+The case highlighted the importance of timely reporting, effective containment, and proactive security measures in preventing similar incidents.
 
 ## Full Report
 
-For a detailed walkthrough of the investigation, including step-by-step analysis, evidence screenshots, and expanded forensic findings, please refer to the full report:
+For a complete walkthrough of the investigation, including detailed analysis, evidence screenshots, and expanded forensic findings, see the full report:
 
 [View Full Report (report.md)](report.md)
